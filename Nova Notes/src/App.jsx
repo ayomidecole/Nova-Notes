@@ -1,8 +1,12 @@
+import NavBar from "./components/NavBar"
+
 function App() {
 
   return (
     <>
-      <div>New App</div>
+      <div>
+        <NavBar />
+      </div>
     </>
   )
 }
