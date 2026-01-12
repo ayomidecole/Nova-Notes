@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = () => {
     return (
         <nav className="w-full bg-black text-white py-2">
-            <div className="max-w-6xl mx-auto px-2">
+            <div className="mx-auto px-4 md:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     {/*Left*/}
                     <div>Nova Notes</div>
