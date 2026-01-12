@@ -9,13 +9,18 @@ const NavBar = () => {
                     <div>Nova Notes</div>
                     {/*Center*/}
                     <ul className="hidden md:flex items-center space-x-8">
-                        <li className="mr-2">Features</li>
-                        <li className="mr-2">Pricing</li>
-                        <li className="mr-2">Security</li>
-                        <li className="mr-2">Blog</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>Security</li>
+                        <li>Blog</li>
                     </ul>
                     {/*Right*/}
-                    <div>Get Started</div>
+                    <div className="flex items-center space-x-4">
+                        <a className="hidden md:inline">Sign in</a>
+                        <button className="bg-blue-600 rounded-full px-4 py-2">
+                            Get Started
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
