@@ -39,6 +39,7 @@ const Hero = () => {
                                     <div className="w-2 h-2 rounded-full bg-gray-400"></div>
                                 </div>
                             </div>
+                            <div className=''>hi</div>
                         </div>
                     </div>
                 </div>
